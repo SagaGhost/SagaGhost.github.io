@@ -29,12 +29,15 @@
       background: linear-gradient(to bottom ,var(--color-one),var(--color-two),var(--color-three), var(--color-two),var(--color-one));
     }
   }
+
+
 .capt{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
     margin-bottom: 3%;
 }
+
 .project-tile{
     width: 30%;
     min-width: 400px;
@@ -55,11 +58,17 @@ img{
     width: 100%;
 }
 
-h1{
+h1, #bio{
     text-align: center;
     background-color: #3b5441;
     color:beige;
     width:40%;
     margin-left: auto;
     margin-right: auto;
+}
+#bio{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
