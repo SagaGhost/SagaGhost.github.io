@@ -10,7 +10,9 @@
   
   #navbar{
     position:fixed;
-    width:100%;
+    border-radius: 25px;
+    width:95%;
+    padding-left: 5%;
     height: 3%;
     background-color:black;
     font-size:24px;
@@ -22,6 +24,7 @@
   a{
    color: #d1d2f3; 
    width: 100%;
+   
   }
   
   @media only screen and (max-width: 600px) {
@@ -40,7 +43,9 @@
 
 .project-tile{
     width: 30%;
-    min-width: 400px;
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;
     margin: auto;
     margin-top: 2%;
     display: flex;
@@ -55,12 +60,18 @@
 }
 
 img{
-    width: 100%;
+    width: 96%;
+    max-height: 200px;
+    border-radius: 25px;
+    background-position: left top;
+    padding: 2%;
+
 }
 
 h1, #bio{
     text-align: center;
     background-color: #3b5441;
+    border-radius: 25px;
     color:beige;
     width:40%;
     margin-left: auto;
